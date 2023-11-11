@@ -66,8 +66,8 @@ def dsdownloader(owner: str, dataset: str, output: str, uzip: bool = True):
 
 
 def compfiles(comp: str, output: str):
-    """Download competition files from Kaggle using Kaggle Python API. This function assumes\n
-    that Kaggle credentials are well set.\n
+    """Download competition files from Kaggle using Kaggle Python API. This function \n 
+    assumes that Kaggle credentials are well set.\n
     Visit https://github.com/Kaggle/kaggle-api#api-credentials for credentials \n
     configuration.
 

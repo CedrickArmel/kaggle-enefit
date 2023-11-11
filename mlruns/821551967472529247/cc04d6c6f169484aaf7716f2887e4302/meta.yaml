@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ensai/dev/enefit/mlruns/821551967472529247/cc04d6c6f169484aaf7716f2887e4302/artifacts
+end_time: 1699704001639
+entry_point_name: ''
+experiment_id: '821551967472529247'
+lifecycle_stage: active
+run_id: cc04d6c6f169484aaf7716f2887e4302
+run_name: data_formating
+run_uuid: cc04d6c6f169484aaf7716f2887e4302
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699703983339
+status: 4
+tags: []
+user_id: ensai
