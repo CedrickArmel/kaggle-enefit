@@ -1,0 +1,73 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+client:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/client.csv
+
+electricity_prices:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/electricity_prices.csv
+
+forecast_weather:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/forecast_weather.csv
+
+gas_prices:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/gas_prices.csv
+
+historical_weather:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/historical_weather.csv
+
+train:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/train.csv
+
+county_id_to_name_map:
+  type: json.JSONDataset
+  filepath: data/01_raw/county_id_to_name_map.json
+
+client_eg:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/client.csv
+
+electricity_prices_eg:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/electricity_prices.csv
+
+forecast_weather_eg:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/forecast_weather.csv
+
+gas_prices_eg:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/gas_prices.csv
+
+historical_weather_eg:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/historical_weather.csv
+
+revealed_targets:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/revealed_targets.csv
+
+sample_submission:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/sample_submission.csv
+
+test:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/example_test_files/test.csv
+
+metrics:
+  type: tracking.MetricsDataSet
+  filepath: data/09_tracking/metrics.json
+
+
+#dataset_columns:
+#  type: tracking.JSONDataSet
+#  filepath: data/09_tracking/dataset_columns.json
