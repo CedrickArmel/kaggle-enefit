@@ -7,25 +7,49 @@ client:
   type: pandas.CSVDataSet
   filepath: data/01_raw/client.csv
 
+cl:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/cl.parquet
+
 electricity_prices:
   type: pandas.CSVDataSet
   filepath: data/01_raw/electricity_prices.csv
+
+ep:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/ep.parquet
 
 forecast_weather:
   type: pandas.CSVDataSet
   filepath: data/01_raw/forecast_weather.csv
 
+fw:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/fw.parquet
+
 gas_prices:
   type: pandas.CSVDataSet
   filepath: data/01_raw/gas_prices.csv
+
+gp:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/gp.parquet
 
 historical_weather:
   type: pandas.CSVDataSet
   filepath: data/01_raw/historical_weather.csv
 
+hw:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/hw.parquet
+
 train:
   type: pandas.CSVDataSet
   filepath: data/01_raw/train.csv
+
+tr:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/tr.parquet
 
 county_id_to_name_map:
   type: json.JSONDataset
